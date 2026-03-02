@@ -1,0 +1,14 @@
+LIBRARY winmm
+EXPORTS
+  timeGetTime=_proxy_timeGetTime@0
+  mmioStringToFOURCCA=_proxy_mmioStringToFOURCCA@8
+  timeBeginPeriod=_proxy_timeBeginPeriod@4
+  timeEndPeriod=_proxy_timeEndPeriod@4
+  mmioOpenA=_proxy_mmioOpenA@12
+  mmioClose=_proxy_mmioClose@8
+  mmioDescend=_proxy_mmioDescend@16
+  mmioAscend=_proxy_mmioAscend@12
+  mmioRead=_proxy_mmioRead@12
+  mmioWrite=_proxy_mmioWrite@12
+  mmioCreateChunk=_proxy_mmioCreateChunk@12
+  mmioSeek=_proxy_mmioSeek@12
